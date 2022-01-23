@@ -1,0 +1,11 @@
+/*border-box - все внутренние отступы и границы включены в размер блока (content-box - по умолч)*/
+html {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/*---*/
+
