@@ -198,7 +198,8 @@ li {
     margin: 0 auto;
     padding-top: 84px;
 }
-.slider__pre-text {
+.slider__pre-text,
+h6 {
     color: #3D4F9F;
     text-transform: uppercase;
     font-size: 10px;
@@ -206,7 +207,8 @@ li {
     letter-spacing: 0.1em;
     padding-bottom: 16px;
 }
-.slider__title {
+.slider__title,
+h1 {
     color: #3D4F9F;
     font-family: 'Quicksand';
     font-size: 48px;
@@ -214,7 +216,9 @@ li {
     font-weight: 300;
     padding-bottom: 28px;
 }
-.slider__title span {
+.slider__title span,
+h1 span,
+h2 span {
     font-weight: 500;
 }
 .header__content-box p {
@@ -276,10 +280,92 @@ li {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 76.5px;
     padding: 60px 158px;
+    align-items: center;
 }
 .partners-item svg path {
     transition: .4s ease-in;
 }
 .partners-item svg:hover path {
     fill: #5982E7;
+}
+
+/*2 block*/
+.managing {
+    background-color:#F5F8FF;
+}
+.managing_inner {
+    padding: 170px 0;
+    display: flex;
+    justify-content: end;
+}
+.managing__content-box {
+    margin: auto 0;
+    max-width: 413px;
+    margin-right: 55px;
+}
+.managing__pre-text {
+    padding-bottom: 27px;
+}
+.managing__title,
+h2 {
+    font-family: 'Quicksand';
+    font-size: 36px;
+    line-height: 45px;
+    color: #3D4F9F;
+    font-weight: 400;
+    padding-bottom: 27px;
+}
+.managing__content-box p {
+    padding-bottom: 47px;
+    letter-spacing: 0.03em;
+}
+.managing__btn-box {
+    justify-content: start;
+}
+.btn-1,
+.btn-2 {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Quicksand';
+    font-size: 13px;
+    line-height: 19px;
+    border-radius: 2px;
+}
+.btn-1:hover {
+    background-color: #fff;
+    color: #4C85FF;
+    outline: 0;
+}
+.btn-1 {
+    padding: 14px 23px 14px 23px;
+    background-color: #4C85FF;
+    color: #fff;
+    box-shadow: 0 0 20px 20px #4C85FF inset, 0 0 0 0 #4C85FF;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.btn-1:hover {
+    box-shadow: 0 0 5px 0 #4C85FF inset, 0 0 5px 4px #4C85FF;
+}
+.btn-1 svg path {
+    transition: all .3s ease-in-out;
+}
+.btn-1:hover svg path {
+    fill: #4C85FF;
+}
+.btn-1 svg {
+    margin-left: 6px;
+}
+.btn-2 {
+    padding: 12px 23px;
+    background-color: transparent;
+    color: #ADB4D2;
+    border: 2px solid #D1D1E4;
+    -webkit-transition: box-shadow 300ms ease-in-out, color .4s ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color .4s ease-in-out;
+}
+.btn-2:hover {
+    box-shadow: 0 0 20px 20px #4C85FF inset;
+    color:#fff;
 }
