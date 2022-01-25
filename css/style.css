@@ -478,3 +478,50 @@ h2 {
 .about__buttons-box p:after {
     right: 70%;
 }
+
+/*4 block*/
+.statistics {
+    display: flex;
+}
+.stats__customers {
+    background-color: #5E80FF;
+    text-align: right;
+    width: 50%;
+    color: #fff;
+}
+.stats__users {
+    background-color: #E9EFFF;
+    text-align: left;
+    width: 50%;
+    color: #5E80FF;
+}
+.stats__customers-inner {
+    padding: 66px 90px 66px 0;
+}
+.stats__users-inner {
+    padding: 66px 0 66px 90px;
+}
+.stats__img {
+    padding-bottom: 15px;
+}
+.stats__title {
+    padding-bottom: 10px;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+}
+.stats__subtext {
+    font-family: 'Quicksand';
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    max-width: 260px;
+}
+.stats__customers-inner .stats__subtext {
+    margin-left: auto;
+}
+.stats__users-inner .stats__subtext {
+    margin-right: auto;
+}
