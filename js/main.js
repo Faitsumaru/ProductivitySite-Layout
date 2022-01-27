@@ -12,12 +12,30 @@ $(function () {
     autoplay: true
   });
 
-  
-//   var sl = $('.header__slider');
-//   var btn = $('.header__top-btn');
-//   if (btn.on('click')) {
-//       sl.slick({autoplay: true, speed: 330, dots: false});
-// }
+  //reading block slider:
+  $('.reading__slider').slick({
+    dots: true,
+    infinite: true,
+    prevArrow: '<button type="button" class="slider-arrow-prev"><img src="images/reading-slider-prev.svg"></button>',
+    nextArrow: '<button type="button" class="slider-arrow-next"><img src="images/reading-slider-next.svg"></button>',
+    speed: 300,
+    slidesToShow: 1
+  });
 
+  //reading block popup:
+  $('.img-popup-item').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		closeBtnInside: false,
+		fixedContentPos: true,
+		mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+		image: {
+			verticalFit: true
+		},
+		zoom: {
+			enabled: true,
+			duration: 300 // don't foget to change the duration also in CSS
+		}
+	});
 
 });

@@ -231,7 +231,6 @@ h2 span {
     background-color: #fff;
     border-radius: 100%;
     border: none;
-    box-shadow: 0px 10px 50px rgba(201, 209, 231, 0.6);
     cursor: pointer;
     position: absolute;
     top: 20px;
@@ -525,3 +524,143 @@ h2 {
 .stats__users-inner .stats__subtext {
     margin-right: auto;
 }
+
+/*5 block*/
+.reading {
+    text-align: center;
+    background-color: #F5F8FF;
+    position: relative;
+}
+.reading__inner {
+    padding: 104px 100px 213px;
+}
+.reading__pre-text {
+    padding-bottom: 20px;
+}
+.reading__title {
+    font-size: 24px;
+    line-height: 30px;
+    color: #3D4F9F;
+    font-weight: 500;
+    padding-bottom: 92px;
+}
+.reading__slider {
+    background-color: #fff;
+    border: 1px solid #D8E3FE;
+    box-shadow: 0px 15px 50px #EFF4FF;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 63px 41px 19px;
+}
+.slider-arrow-prev,
+.slider-arrow-next {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    content: '';
+    cursor: pointer;
+    bottom: 46%;
+    z-index: 15;
+    transition: .3s linear;
+}
+.slider-arrow-prev:hover,
+.slider-arrow-next:hover {
+    opacity: 0.7;
+}
+.slider-arrow-prev {
+    left: -100px;
+}
+.slider-arrow-next {
+    right: -100px;
+}
+.reading__img-box,
+.reading__slider-item {
+    display: flex;
+}
+.img-popup-item {
+    position: relative;
+}
+.reading__loop {
+    position: absolute;
+    top: 41%;
+    right: 37%;
+    transition: .5s ease-in;
+    z-index: 10;
+}
+.img-popup-item:hover .reading__loop {
+    transform: scale(1.1);
+}
+.img-popup-item:hover {
+    cursor: zoom-in;
+}
+.reading__img:last-child {
+    margin-top: 12px;
+}
+.img-popup-group {
+    padding-left: 15px;
+}
+.reading__text-box {
+    text-align: left;
+    padding-left: 67px;
+    max-width: 408px;
+}
+.reading__text-box p {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+}
+.reading__text-box .btn-1 {
+    background-color: #D2E1FF;
+    box-shadow: 0 0 20px 20px #D2E1FF inset, 0 0 0 0 #D2E1FF;
+    color: #3A79FF;
+    transition: box-shadow 400ms linear, color .5s linear;
+}
+.reading__text-box .btn-1:hover {
+    box-shadow: 0 0 5px 0 #3A79FF inset, 0 0 5px 1px #3A79FF;
+    background-color: #3A79FF;
+    color: #fff;
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.reading .slick-dots {
+    bottom: -126px;
+    right: 48%;
+}
+/*popup_start*/
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+/*popup_end*/
