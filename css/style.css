@@ -664,3 +664,84 @@ h2 {
 	opacity: 0;
 }
 /*popup_end*/
+
+/*6 block*/
+.quotes {
+    background-color: #EAF0FF;
+}
+.quotes > .container {
+    max-width: 100%;
+    padding-right: 0;
+}
+.quotes__inner {
+    padding: 110px 0 130px 380px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.quotes__text {
+    max-width: 333px;
+    padding: 50px 0;
+    margin-right: 30px;
+}
+.quotes__pre-text {
+    padding-bottom: 31px;
+}
+.quotes__title {
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+.quotes__text p {
+    font-family: 'open-sans';
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    font-size: 12px;
+    line-height: 23px;
+    color: #A4ABC8;
+}
+.quotes__slider {
+    max-width: 800px;
+    height: 262px;
+}
+.quotes__slider-item {
+    width: 423px;
+    position: relative;
+    max-height: 160px;
+    padding: 41px 50px;
+    background-color: #fff;
+    color: #676F95;
+    border: 1px solid #D8E3FE;
+    box-shadow: 0px 5px 50px #F3F5FA;
+    
+}
+.reading__slider-text {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+}
+.quotes__slider-img {
+    position: absolute;
+    content: '';
+    left: 44%;
+    bottom: -15%;
+}
+.quotes__slider .slick-track {
+    bottom: 30%;
+}
+.quotes .slick-initialized .slick-slide {
+    margin-left: 64px;
+}
+.slick-dots {
+    display: flex;
+    bottom: -20%;
+    right: 66.5%;
+}
+.quotes .slick-slide {
+    opacity: 1;
+    transform: scale(1.08);
+    transition: .3s linear;
+}
+.quotes .slick-center {
+    opacity: .45;
+    transition: .3s linear;
+}

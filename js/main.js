@@ -38,4 +38,16 @@ $(function () {
 		}
 	});
 
+  //quotes block slider:
+  $('.quotes__slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 400,
+    arrows: false,
+    autoplay: true,
+    slidesToShow: 1.2,
+    slidesToScroll: 1,
+    centerMode: true,
+  });
+
 });
