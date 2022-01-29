@@ -50,4 +50,30 @@ $(function () {
     centerMode: true,
   });
 
+  //FAQ block:
+  var $speed = 200;
+  var $class = 'opened';
+  var $class_openBlock = '.faq-answer';
+
+  $(document).ready(function() {
+    $('.faq-question').on('click', function() {
+      $ul = $(this).closest('ul');
+      $answer = $(this).closest('li').find($class_openBlock);
+
+      if (!$(this).closest('li').hasClass($class)) {
+
+        $ul.find('li').each(function() {
+          if ($(this).hasClass($class))
+            $(this).removeClass($class).find($class_openBlock).slideUp($speed);
+        });
+      }
+
+      $answer
+        .slideToggle($speed)
+        .closest('li')
+        .toggleClass($class)
+        .find($class_openBlock).css("display", "flex");
+    });
+  });
+
 });
