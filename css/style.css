@@ -335,6 +335,7 @@ h2 {
     background-color: #fff;
     color: #4C85FF;
     outline: 0;
+    box-shadow: 0 0 5px 0 #4C85FF inset, 0 0 5px 4px #4C85FF;
 }
 .btn-1 {
     padding: 14px 23px 14px 23px;
@@ -343,9 +344,6 @@ h2 {
     box-shadow: 0 0 20px 20px #4C85FF inset, 0 0 0 0 #4C85FF;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-}
-.btn-1:hover {
-    box-shadow: 0 0 5px 0 #4C85FF inset, 0 0 5px 4px #4C85FF;
 }
 .btn-1 svg path {
     transition: all .3s ease-in-out;
@@ -537,7 +535,6 @@ h2 {
 .reading__pre-text {
     padding-bottom: 20px;
 }
-h3,
 .reading__title {
     font-size: 24px;
     line-height: 30px;
@@ -732,7 +729,7 @@ h3,
 .quotes .slick-initialized .slick-slide {
     margin-left: 64px;
 }
-.slick-dots {
+.quotes .slick-dots {
     display: flex;
     bottom: -20%;
     right: 66.5%;
@@ -756,6 +753,11 @@ h3,
 .questions__title {
     text-align: center;
     padding-bottom: 68px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3D4F9F;
+    font-weight: 500;
+    padding-bottom: 92px;
 }
 .faq {
     max-width: 743px;
@@ -816,4 +818,44 @@ h3,
 }
 .opened .faq-question::before {
     background-image: url(../images/faq-arrow-opened.svg);
+}
+
+/*8 block*/
+.pricing {
+    background-image: url(../images/pricing-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pricing__inner {
+    text-align: center;
+    padding: 91px 0;
+    max-width: 712px;
+    margin: 0 auto;
+}
+.pricing__pre-title,
+.pricing__title,
+.pricing__inner p {
+    color: #fff;
+}
+.pricing__inner p {
+    letter-spacing: 0.03em;
+    padding-bottom: 56px;
+}
+.pricing__btn-box .btn-1 {
+    background-color: #fff;
+    box-shadow: 0 0 20px 20px #fff inset, 0 0 0 0 #fff;
+    color: #565F82;
+}
+.pricing__btn-box .btn-1:hover {
+    background-color:#565F82;
+    color: #fff;
+    box-shadow: 0 0 5px 0 #565F82 inset, 0 0 5px 4px #565F82;
+}
+.pricing__btn-box .btn-2 {
+    color: #C7D3FF;
+}
+.pricing__btn-box .btn-2:hover {
+    box-shadow: 0 0 20px 20px #fff inset;
+    color:#565F82;
 }
