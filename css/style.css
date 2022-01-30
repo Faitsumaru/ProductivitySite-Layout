@@ -859,3 +859,58 @@ h2 {
     box-shadow: 0 0 20px 20px #fff inset;
     color:#565F82;
 }
+
+/*9 block*/
+.sign__inner {
+    padding: 118px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.sign__text {
+    max-width: 330px;
+}
+.sign__title {
+    color: #3D4F9F;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.5px;
+    padding-bottom: 18px;
+}
+.sign__text p {
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 27px;
+}
+.sign-form {
+    display: flex;
+    align-items: center;
+}
+.sign__input-mail {
+    background-color: #EFEFF7;
+    border-radius: 5px;
+    width: 233px;
+    height: 59px;
+    border: none;
+    padding: 0 23px;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    margin-right: 14px;
+}
+.sign__input-mail::placeholder {
+    color: #7A85AD;
+}
+.sign .btn-1 {
+    width: 184px;
+    height: 59px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 20px #4D6CE1 inset, 0 0 0 0 #4D6CE1;
+    background-color: #4D6CE1;
+}
+.sign .btn-1:hover {
+    background-color:#fff;
+    color: #4D6CE1;
+    box-shadow: 0 0 5px 0 #4D6CE1 inset, 0 0 5px 4px #4D6CE1;
+}
