@@ -861,6 +861,9 @@ h2 {
 }
 
 /*9 block*/
+.sign {
+    background-color: #FCFDFF;
+}
 .sign__inner {
     padding: 118px 160px;
     display: flex;
@@ -913,4 +916,30 @@ h2 {
     background-color:#fff;
     color: #4D6CE1;
     box-shadow: 0 0 5px 0 #4D6CE1 inset, 0 0 5px 4px #4D6CE1;
+}
+
+/*10 block*/
+.footer__inner {
+    padding: 93px 0;
+}
+.footer__menu-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 28px;
+}
+.footer-social {
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+}
+.footer__copyright-text {
+    display: block;
+    color: #AEB8D0;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    font-family: 'Quicksand';
+    padding-left: 100px;
 }
