@@ -76,4 +76,10 @@ $(function () {
     });
   });
 
+  //burger for header block:
+  $('.burger-btn').on('click', function() {
+    $('.menu__list').toggleClass('menu__list--active'); //list show
+    $('.burger-btn').toggleClass('burger-btn--active'); //burger-btn animation
+  });
+
 });
