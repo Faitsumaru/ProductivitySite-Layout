@@ -193,7 +193,7 @@
         font-family: 'Quicksand';
         line-height: 20px;
     }
-    .menu__list--active {
+    .header__top .menu__list--active {
         transform: translateX(10%);
         padding: 0 auto;
         margin-top: 10%;
@@ -326,6 +326,10 @@
     }
 }
 @media (max-width: 652px) {
+    /*1 block*/
+    .slider-next {
+        right: 45.4%;
+    }
     /*6 block*/
     .quotes .slick-dots {
         bottom: -37%;
@@ -535,6 +539,13 @@
     .about__content {
         padding-bottom: 60px;
     }
+    .header__content-box p {
+        padding-bottom: 40px;
+    }
+    .slider-next {
+        top: -15%;
+        right: 42.5%;
+    }
     /*4 block*/
     .stats__title {
         font-size: 38px;
@@ -549,6 +560,10 @@
     }
     .stats__customers-inner {
         padding: 40px 20px 40px 0;
+    }
+    /*5 block*/
+    .reading__slider {
+        padding: 20px 41px 0px;
     }
     /*6 block*/
     .quotes__inner {
