@@ -329,6 +329,10 @@
     }
 }
 @media (max-width: 652px) {
+    /*1 block*/
+    .slider-next {
+        right: 46.4%;
+    }
     /*6 block*/
     .quotes .slick-dots {
         bottom: -37%;
@@ -355,7 +359,7 @@
     }
     .slick-dots {
         bottom: 15px;
-        right: 45%;
+        right: 44%;
     }
     .menu__list--active {
         margin-top: 15%;
