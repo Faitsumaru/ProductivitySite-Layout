@@ -126,6 +126,19 @@
     .quotes .slick-initialized .slick-slide {
         margin-left: 100px;
     }
+    /*9 block*/
+    .sign__inner {
+        display: block;
+        text-align: center;
+        padding: 70px 0px;
+    }
+    .sign__text {
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .sign-form {
+        justify-content: center;
+    }
 }
 @media (max-width: 1050px) {
     /*1 block*/
@@ -555,6 +568,33 @@
     .questions__title {
         padding-bottom: 40px;
     }
+    /*8 block*/
+    .pricing__inner {
+        padding: 50px 0;
+    }
+    /*9 block*/
+    .sign-form {
+        display: block;
+    }
+    .sign__input-mail {
+        margin-right: 0;
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .sign .btn-1 {
+        width: 279px;
+    }
+}
+@media (max-width: 344px) {
+    /*8 block*/
+    .pricing__inner p {
+        padding-bottom: 20px;
+        font-size: 13px;
+    }
+    .pricing__btn-box .btn-1 {
+        width: 182.36px;
+        margin-bottom: 5px;
+    }
 }
 @media (max-width: 320px) {
     /*5 block*/
@@ -574,5 +614,13 @@
     }
     .reading .slick-dots {
         right: 31%;
+    }
+    /*9 block*/
+    .sign .btn-1,
+    .sign__input-mail {
+        max-width: 200px;
+    }
+    .sign__inner {
+        padding: 50px 0px;
     }
 }
