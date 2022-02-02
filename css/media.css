@@ -359,7 +359,10 @@
     }
     .slick-dots {
         bottom: 15px;
-        right: 44%;
+        right: 41%;
+    }
+    .slider-next {
+        right: 43.4%;
     }
     .menu__list--active {
         margin-top: 15%;
