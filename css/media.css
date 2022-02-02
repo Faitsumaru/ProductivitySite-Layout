@@ -242,6 +242,17 @@
     .quotes .slick-dots {
         bottom: -35%;
     }
+    /*10 block*/
+    .footer__menu-box {
+        justify-content: center;
+    }
+    .footer__copyright-text {
+        padding-left: 0;
+        text-align: center;
+    }
+    .footer__inner {
+        padding: 40px 0;
+    }
 }
 @media (max-width: 800px) {
     /*3 block*/
@@ -583,6 +594,19 @@
     }
     .sign .btn-1 {
         width: 279px;
+    }
+}
+@media (max-width: 360px) {
+    /*10 block*/
+    .footer__inner {
+        padding: 20px 0 40px;
+    }
+    .header__top-btn {
+        display: none;
+    }
+    .footer__menu-box {
+        padding-bottom: 20px;
+        padding-left: 35px;
     }
 }
 @media (max-width: 344px) {
