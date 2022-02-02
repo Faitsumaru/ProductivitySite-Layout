@@ -221,6 +221,9 @@
     .menu__item + .menu__item {
         margin-left: 0;
     }
+    .slick-dots {
+        right: 45%;
+    }
     /*2 block*/
     .managing__img {
         max-width: 100%;
@@ -326,10 +329,6 @@
     }
 }
 @media (max-width: 652px) {
-    /*1 block*/
-    .slider-next {
-        right: 45.4%;
-    }
     /*6 block*/
     .quotes .slick-dots {
         bottom: -37%;
@@ -356,7 +355,7 @@
     }
     .slick-dots {
         bottom: 15px;
-        right: 46%;
+        right: 45%;
     }
     .menu__list--active {
         margin-top: 15%;
