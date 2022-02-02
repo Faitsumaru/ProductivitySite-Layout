@@ -48,6 +48,15 @@ $(function () {
     slidesToShow: 1.2,
     slidesToScroll: 1,
     centerMode: true,
+    responsive: [
+      {
+        breakpoint: 460,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false
+        }
+      }
+    ]
   });
 
   //FAQ block:
